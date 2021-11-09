@@ -6,3 +6,6 @@ header#header {
     content: "";
     background-color: rgba(0, 0, 0, 0.3);
 }
+#hero .carousel-inner .carousel-item {
+    background-position: center center;
+}
