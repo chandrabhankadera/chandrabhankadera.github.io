@@ -9,3 +9,7 @@ header#header {
 #hero .carousel-inner .carousel-item {
     background-position: center center;
 }
+
+li.dropdown.active > a > span {
+    color: #5cb874;
+}
