@@ -13,6 +13,6 @@ header#header {
 li.dropdown.active > a > span {
     color: #5cb874;
 }
-.app-state__wrapper {
+iframe .app-state__wrapper {
     display: none !important;
 }
