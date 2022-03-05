@@ -7,9 +7,9 @@
       </div>
       <div class="social-links d-none d-md-block">
 
-        <a href="https://www.facebook.com/ChandrabhanKaDera" target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.facebook.com/ChandrabhanKaDera/" target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>
         <a href="https://www.instagram.com/chandrabhankadera/" target="_blank" class="instagram"><i class="bi bi-instagram"></i></a>
-		<a href="https://www.youtube.com/channel/UClN-4kM8a3JsOCaruvJvtew" class="youtube" target="_blank" ><i class="bi bi-youtube"></i></a>
+		<a href="https://www.youtube.com/chandrabhankadera/" class="youtube" target="_blank" ><i class="bi bi-youtube"></i></a>
       </div>
     </div>
   </section>
@@ -45,6 +45,7 @@
                 <ul>
                   <li><a href="#">Cow</a></li>
                   <li><a href="#">Dog</a></li>
+                  <li><a href="#">Bunny</a></li>
                 </ul>
               </li>
               <li><a href="/services/social-work/">Social work</a></li>
