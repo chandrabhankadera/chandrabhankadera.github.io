@@ -28,13 +28,14 @@
               <li><a href="/team/">Team</a></li>
             </ul>
           </li>
-		  <li class="dropdown {% if page.currentpage == 'nearby' or page.currentpage == 'portfolio' or page.currentpage == 'team' %}active{% endif %}"><a href="/nearby/"><span>Nearby</span> <i class="bi bi-chevron-down"></i></a>
+		  <li class="dropdown {% if page.currentpage == 'nearby' or page.currentpage == 'portfolio' or page.currentpage == 'team' %}active{% endif %}"><a href=""><span>Nearby</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a class="d-md-block" href="/nearby/ancient-places/"><i class="fa-duotone fa-gopuram"></i> Ancient places</a></li>
               <li><a class="d-md-block" href="/nearby/spiritual-place/"><i class="fa-duotone fa-om"></i> Spiritual Place</a></li>
               <li><a class="d-md-block" href="/nearby/tiger-safari/"><i class="fa-duotone fa-paw"></i> Tiger Safari</a></li>
               <li><a class="d-md-block" href="/nearby/hills-and-mountains/"><i class="fa-duotone fa-mountains"></i> Hills and Mountains</a></li>
               <li><a class="d-md-block" href="/nearby/waterfalls-and-rivers/"><i class="fa-duotone fa-person-hiking"></i> Waterfalls and Rivers</a></li>
+              <li><a class="d-md-block" href="/nearby/"><i class="fa-duotone fa-person-hiking"></i> View All</a></li>
             </ul>
           </li>
           <li class="dropdown {% if page.currentpage == 'service'%}active{% endif %}"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
@@ -52,7 +53,13 @@
               <li><a href="/services/">All Services</a></li>
             </ul>
           </li>
-          <li><a class="nav-link {% if page.currentpage == 'contact' %}active{% endif %}" href="/contact-us/">Contact</a></li>
+           <li class="dropdown {% if page.currentpage == 'contact'%}active{% endif %}"><a href="#"><span>Help</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="/contact-us/">Contact Us</a></li>
+              <li><a href="/blog/">Blog / News</a></li>
+              <li><a href="/social/">Social Links</a></li>
+            </ul>
+          </li>
           <li><a class="getstarted {% if page.currentpage == 'staywithus' %}active{% endif %}" href="/stay-with-us/">Stay with us</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
