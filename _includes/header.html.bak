@@ -9,7 +9,7 @@
 
         <a href="https://www.facebook.com/ChandrabhanKaDera/" target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>
         <a href="https://www.instagram.com/chandrabhankadera/" target="_blank" class="instagram"><i class="bi bi-instagram"></i></a>
-		<a href="https://www.youtube.com/chandrabhankadera/" class="youtube" target="_blank" ><i class="bi bi-youtube"></i></a>
+		<a href="https://www.youtube.com/chandrabhankadera/" target="_blank"class="youtube" ><i class="bi bi-youtube"></i></a>
       </div>
     </div>
   </section>
@@ -35,6 +35,7 @@
               <li><a class="d-md-block" href="/nearby/tiger-safari/"><i class="fa-duotone fa-paw"></i> Tiger Safari</a></li>
               <li><a class="d-md-block" href="/nearby/hills-and-mountains/"><i class="fa-duotone fa-mountains"></i> Hills and Mountains</a></li>
               <li><a class="d-md-block" href="/nearby/waterfalls-and-rivers/"><i class="fa-duotone fa-person-hiking"></i> Waterfalls and Rivers</a></li>
+			  <li><a href="/nearby/">View All</a></li>
             </ul>
           </li>
           <li class="dropdown {% if page.currentpage == 'service'%}active{% endif %}"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
