@@ -1,6 +1,6 @@
 <footer id="footer">
     <div class="container">
-	<img src="https://api.netlify.com/api/v1/badges/84d7a4b2-2558-4656-939b-0c53d067c38f/deploy-status" alt="Netlify Status">
+	<img src="https://api.netlify.com/api/v1/badges/84d7a4b2-2558-4656-939b-0c53d067c38f/deploy-status" alt="netlify Status">
       <h3>Go Green</h3>
       <p>A small camp in the Bundelkhand region where nature remained.</p>
       <div class="social-links">
