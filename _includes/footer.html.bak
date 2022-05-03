@@ -1,0 +1,20 @@
+<footer id="footer">
+    <div class="container">
+	<a href="https://app.netlify.com/sites/chandrabhankadera/deploys" target="_blank"><img src="https://api.netlify.com/api/v1/badges/84d7a4b2-2558-4656-939b-0c53d067c38f/deploy-status" alt="Netlify Status"></a>
+      <h3 class="pt-3">Go Green</h3>
+      <p>A small camp in the Bundelkhand region where nature remained.</p>
+      <div class="social-links">
+		<a href="https://www.facebook.com/ChandrabhanKaDera/" target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>
+		<a href="https://www.instagram.com/chandrabhankadera/" target="_blank" class="instagram"><i class="bi bi-instagram"></i></a>
+		<a href="https://www.youtube.com/chandrabhankadera/" target="_blank" class="youtube"><i class="bi bi-youtube"></i></a>
+      </div>
+      <div class="copyright">
+        &copy; 2012-{{ 'now' | date: "%Y" }} <strong><span> {{ site.title }}</span></strong> All Rights Reserved
+      </div>
+      <div class="credits">
+        Design Sponsored by <a href="https://www.srapsware.com/" target="_blank">Srapsware Technologies Pvt Ltd</a>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
