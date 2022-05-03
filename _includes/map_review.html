@@ -1,8 +1,11 @@
-<script>
-    const API_END = 'https://maps.googleapis.com/maps/api/place/details/json?placeid=ChIJ0WnPdVDZhDkRt04eHNGAoZE&key=AIzaSyCRSttyQQ9iRqnkSpymldL_VBG402Y8enY&callback=ShowReviews';
-    fetch(API_END)
-        .then(response => response.json())
-        .then(data => console.log(data));
+<script type="text/javascript">
+    function logPlaceDetails() {
+        var service = new google.maps.places.PlacesService();
+        service.getDetails({
+            placeId: 'ChIJ0WnPdVDZhDkRt04eHNGAoZE'
+        }, function (place, status) {
+            console.log('Place details:', place);
+        });
+    }
 </script>
-
-
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRSttyQQ9iRqnkSpymldL_VBG402Y8enY&libraries=places&callback=logPlaceDetails"></script>
