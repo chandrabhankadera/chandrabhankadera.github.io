@@ -1,6 +1,6 @@
 <script>
     function initMap() {
-        const map = new google.maps.Map();
+        const map = new google.maps.Map(document.getElementById("map"));
         const request = {
             placeId: "ChIJ0WnPdVDZhDkRt04eHNGAoZE",
             fields: ["name", "formatted_address", "place_id", "geometry", "photo", "review"],
