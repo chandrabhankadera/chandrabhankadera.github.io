@@ -1,10 +1,8 @@
-<script src="https://maps.googleapis.com/maps/api/place/details/json?placeid=ChIJ0WnPdVDZhDkRt04eHNGAoZE&key=AIzaSyCRSttyQQ9iRqnkSpymldL_VBG402Y8enY&callback=ShowReviews" ></script>
 <script>
-function ShowReviews(data)
-{
-    console.log(data);
-
-}
+    const API_END = 'https://maps.googleapis.com/maps/api/place/details/json?placeid=ChIJ0WnPdVDZhDkRt04eHNGAoZE&key=AIzaSyCRSttyQQ9iRqnkSpymldL_VBG402Y8enY&callback=ShowReviews';
+    fetch(API_END)
+        .then(response => response.json())
+        .then(data => console.log(data));
 </script>
 
 
