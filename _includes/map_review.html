@@ -1,6 +1,6 @@
 <script type="text/javascript">
     function logPlaceDetails() {
-        var service = new google.maps.places.PlacesService();
+        var service = new google.maps.places.PlacesService(document.getElementById('map'));
         service.getDetails({
             placeId: 'ChIJ0WnPdVDZhDkRt04eHNGAoZE'
         }, function (place, status) {
@@ -9,3 +9,6 @@
     }
 </script>
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRSttyQQ9iRqnkSpymldL_VBG402Y8enY&libraries=places&callback=logPlaceDetails"></script>
+
+
+<div id="map"></div>
