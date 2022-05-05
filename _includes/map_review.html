@@ -12,11 +12,13 @@
 
         service.getDetails(request, (place, status) => {
 
-            place = JSON.parse(place);
+            //place = JSON.parse(place);
 
             console.log(place.photos);
 
             for (const element of place.reviews) {
+
+                console.log(element);
 
                 const divData = '<div class="col-md-2"><h4 class="author_name">+element.author_name+</h4><p class="text">+element["text"]+</p></div>';
 
