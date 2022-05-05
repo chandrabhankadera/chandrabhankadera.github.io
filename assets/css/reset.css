@@ -13,3 +13,7 @@ header#header {
 li.dropdown.active > a > span {
     color: #5cb874;
 }
+
+div#reviewDiv {
+    text-align: center;
+}
