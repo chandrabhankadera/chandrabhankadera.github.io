@@ -17,3 +17,6 @@ li.dropdown.active > a > span {
 div#reviewDiv {
     text-align: center;
 }
+h6.author_name {
+    font-weight: bold;
+}
