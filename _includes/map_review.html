@@ -5,24 +5,17 @@
         const map = new google.maps.Map(document.getElementById("map"));
         const request = {
             placeId: "ChIJ0WnPdVDZhDkRt04eHNGAoZE",
-            fields: ["photo", "review"],
+            fields: ["review"],
         };
 
         const service = new google.maps.places.PlacesService(map);
 
         service.getDetails(request, (place, status) => {
 
-            //place = JSON.parse(place);
-
-            console.log(place.photos);
-            console.log(place.reviews);
-
             for (const element of place.reviews) {
 
-                const divData = '<div class="col-md-2"><a class="profile_photo_url" href="'+element.author_url+'"><img src="'+element.profile_photo_url+'"></a><h6 class="author_name">' +element.author_name+ '</h6><p class="text">'+element.text+'</p><p class="rating">'+element.rating+'</p></div>';
-
                 var theDiv = document.getElementById("reviewDiv");
-                theDiv.innerHTML += divData;
+                theDiv.innerHTML += '<div class="col-md-2"><a class="profile_photo_url" href="'+element.author_url+'"><img src="'+element.profile_photo_url+'"></a><h6 class="author_name">' +element.author_name+ '</h6><p class="text">'+element.text+'</p><p class="rating">'+element.rating+'</p></div>';
 
             }
 
