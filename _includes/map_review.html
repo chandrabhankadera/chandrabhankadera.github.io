@@ -1,4 +1,4 @@
-<div class="row" id="reviewdiv"></div>
+<div class="row" id="reviewDiv"></div>
 
 <script>
     function initMap() {
@@ -12,7 +12,16 @@
 
         service.getDetails(request, (place, status) => {
 
-            console.log(place.reviews);
+            console.log(place.photo);
+
+            for (const element of place.reviews) {
+
+                const divData = '<div class="col-md-2"><h4 class="author_name">+element.author_name+</h4><p class="text">+element.text+</p></div>';
+
+                var theDiv = document.getElementById("reviewDiv");
+                theDiv.innerHTML += divData;
+
+            }
 
         });
     }
