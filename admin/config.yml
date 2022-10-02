@@ -132,9 +132,9 @@ collections:
           name: 'body'
           widget: 'markdown'
   
-    - name: 'portfolio'
+    - name: 'nearby'
       label: 'Nearbyplace'
-      folder: '_portfolio/'
+      folder: '_nearby/'
       create: true
       slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
       editor:
@@ -143,7 +143,7 @@ collections:
         - label: 'Layout'
           name: 'layout'
           widget: 'hidden'
-          default: 'portfolio'
+          default: 'nearby'
         - label: 'Title'
           name: 'title'
           widget: 'string'
