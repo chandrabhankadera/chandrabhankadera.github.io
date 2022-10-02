@@ -1,3 +1,5 @@
+# config.yml
+
 backend:
   name: git-gateway
   repo: chandrabhankadera/website
@@ -174,20 +176,20 @@ collections:
           name: 'categories'
           multiple: true
           widget: "relation"
-          collection: "nearbyplaces"
+          collection: "portfoliooptions"
           file: "portcategories"
           search_fields: ["categories.*.title"]
           display_fields: ["categories.*.title"]
           value_field: "categories.*.title"
-        - label: 'Nearbyplaces'
-          name: 'nearbyplaces'
+        - label: 'Technologies'
+          name: 'technologies'
           multiple: true
           widget: "relation"
-          collection: "nearbyplaces"
-          file: "nearbyplaces"
-          search_fields: ["nearbyplaces.*.title"]
-          display_fields: ["nearbyplaces.*.title"]
-          value_field: "nearbyplaces.*.title"
+          collection: "portfoliooptions"
+          file: "technologies"
+          search_fields: ["technologies.*.title"]
+          display_fields: ["technologies.*.title"]
+          value_field: "technologies.*.title"
         - label: "Gallery"
           name: "galleryImages"
           widget: "list"
@@ -202,20 +204,20 @@ collections:
           widget: 'string'
           required: false
           
-    - name: 'nearbyplaces'
-      label: 'Near by places'
+    - name: 'portfoliooptions'
+      label: 'Portfolio Options'
       delete: false # Prevent users from deleting documents in this collection
       editor:
         preview: false
       files:
-        - name: 'nearbyplaces'
-          label: 'Nearbyplaces'
-          file: '_data/nearbyplaces.yml'
-          description: 'List of Nearbyplaces'
+        - name: 'technologies'
+          label: 'Technologies'
+          file: '_data/technologies.yml'
+          description: 'List of Technologies'
           fields:
-            - name: 'nearbyplaces'
-              label: 'Nearbyplaces'
-              label_singular: 'Nearbyplace'
+            - name: 'technologies'
+              label: 'Technologies'
+              label_singular: 'Technologi'
               widget: list
               fields:
                 - { label: 'Title', name: 'title', widget: 'string', hint: 'Enter title' }
