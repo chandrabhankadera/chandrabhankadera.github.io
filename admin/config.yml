@@ -133,7 +133,7 @@ collections:
           widget: 'markdown'
   
     - name: 'portfolio'
-      label: 'Portfolio'
+      label: 'Nearbyplace'
       folder: '_portfolio/'
       create: true
       slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
@@ -175,7 +175,7 @@ collections:
           multiple: true
           widget: "relation"
           collection: "nearbyplaces"
-          file: "portcategories"
+          file: "nearbycategories"
           search_fields: ["categories.*.title"]
           display_fields: ["categories.*.title"]
           value_field: "categories.*.title"
@@ -203,7 +203,7 @@ collections:
           required: false
           
     - name: 'nearbyplaces'
-      label: 'Near by places'
+      label: 'Near Options'
       delete: false # Prevent users from deleting documents in this collection
       editor:
         preview: false
@@ -220,13 +220,13 @@ collections:
               fields:
                 - { label: 'Title', name: 'title', widget: 'string', hint: 'Enter title' }
                 - { label: 'Description', name: 'description', widget: 'markdown' }
-        - name: 'portcategories'
-          label: 'Portfolio categories'
-          file: '_data/portcategories.yml'
-          description: 'List of Portfolio categories'
+        - name: 'nearbycategories'
+          label: 'Nearbyplace categories'
+          file: '_data/nearbycategories.yml'
+          description: 'List of Nearbyplace categories'
           fields:
             - name: 'categories'
-              label: 'Portfolio categories'
+              label: 'Nearbyplace categories'
               label_singular: 'Category'
               widget: list
               fields:
