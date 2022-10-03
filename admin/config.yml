@@ -184,6 +184,7 @@ collections:
             - {label: Timings, name: timings, widget: string }
             - {label: Best Time, name: best_time, widget: string }
             - {label: Link, name: link, widget: string, required: false }
+            - {label: Map, name: map, widget: string, required: false }
  
           
     - name: 'nearbyplaces'
