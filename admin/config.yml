@@ -150,9 +150,6 @@ collections:
         - label: 'SEO Description'
           name: 'seo_description'
           widget: 'string'
-        - label: 'Full URL'
-          name: 'full_url'
-          widget: 'string'
         - label: 'Publish Date'
           name: 'date'
           widget: 'datetime'
@@ -176,6 +173,17 @@ collections:
           search_fields: ["categories.*.title"]
           display_fields: ["categories.*.title"]
           value_field: "categories.*.title"
+        - label: "Near By Places"
+          name: "nearbyplaces"
+          minimize_collapsed: true
+          widget: "list"
+          fields:
+            - {label: Title, name: title, widget: string,}
+            - {label: Description, name: description, widget: string }
+            - {label: Entry fee, name: entry_fee, widget: string }
+            - {label: Timings, name: timings, widget: string }
+            - {label: Best Time, name: best_time, widget: string }
+            - {label: Link, name: link, widget: string }
  
           
     - name: 'nearbyplaces'
