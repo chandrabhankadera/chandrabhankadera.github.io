@@ -145,7 +145,7 @@ collections:
           description: 'List of ancient places'
           fields:
             - name: 'ancient-places'
-              label: 'Ancient-places'
+              label: 'Ancient places'
               label_singular: 'Ancient place'
               widget: list
               fields:
