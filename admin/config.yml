@@ -139,7 +139,7 @@ collections:
       editor:
         preview: false
       files:
-        - name: 'ancient-places'
+        - name: 'ancientplaces'
           label: 'Ancient places'
           file: '_data/ancientplaces.yml'
           description: 'List of ancient places'
