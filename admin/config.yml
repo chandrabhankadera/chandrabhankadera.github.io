@@ -144,7 +144,7 @@ collections:
           file: '_data/ancientplaces.yml'
           description: 'List of ancient places'
           fields:
-            - name: 'ancient-places'
+            - name: 'ancientplaces'
               label: 'Ancient places'
               label_singular: 'Ancient place'
               widget: list
