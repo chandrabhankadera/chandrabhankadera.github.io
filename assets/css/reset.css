@@ -20,3 +20,8 @@ div#reviewDiv {
 h6.author_name {
     font-weight: bold;
 }
+.near-by-title {
+    font-weight: 600;
+    margin: 10px 0 15px 0;
+    font-size: 22px;
+}
