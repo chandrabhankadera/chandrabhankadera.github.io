@@ -18,6 +18,7 @@ nearbyplaces:
     entry_fee: Free
     timings: 10 AM - 6PM
     best_time: Always
-    link: "#"
+    link: ""
+    map: https://goo.gl/maps/WDn1hp3BknuXiTSM8
 ---
 As we live between Chitrakoot and Kaushambi, there are numerous ancient locations here.
