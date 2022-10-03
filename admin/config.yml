@@ -141,7 +141,7 @@ collections:
       files:
         - name: 'ancient-places'
           label: 'Ancient places'
-          file: '_data/ancient-places.yml'
+          file: '_data/ancientplaces.yml'
           description: 'List of ancient places'
           fields:
             - name: 'ancient-places'
