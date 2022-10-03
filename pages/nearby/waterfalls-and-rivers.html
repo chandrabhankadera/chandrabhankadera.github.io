@@ -4,11 +4,14 @@ title: Waterfalls and Rivers
 subtitle: Waterfalls and Rivers
 description: Waterfalls and Rivers
 permalink: /nearby/waterfalls-and-rivers/
+my_variable: nearby/2022-10-03-ancient-places.md
 currentpage: nearby
 sitemap:
   priority: 1.0
 ---
-{% include_relative nearby/2022-10-03-ancient-places.md %}
+{% if page.my_variable %}
+{% include {{ page.my_variable }} %}
+{% endif %}
 
   <main id="main">
     <section id="why-us" class="why-us">
