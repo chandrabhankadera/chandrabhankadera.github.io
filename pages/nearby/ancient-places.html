@@ -24,7 +24,11 @@ sitemap:
 
           <div class="col-lg-12 col-md-12 ">
           <h3 class="near-by-title">{% assign i = i | plus:1 %}  {{ i }}. {{ ancientplaces.title }}</h3>
-            <img src="{{ ancientplaces.image }}">
+            <img class="near-by-image" src="{{ ancientplaces.image }}">
+            <p class="near-by-description">{{ ancientplaces.description }}</p>
+            <p class="near-by-best_time"><strong>Best Time: </strong> {{ ancientplaces.best_time }}</p>
+            <p class="near-by-entry_fee"><strong>Entry Fee: </strong>{{ ancientplaces.entry_fee }}</p>
+            <p class="near-by-timings"><strong>Time: </strong>{{ ancientplaces.timings }}</p>
           </div>
 
           {% endfor %}
