@@ -21,5 +21,12 @@ nearbyplaces:
     link: ""
     map: https://goo.gl/maps/WDn1hp3BknuXiTSM8
     image: /assets/uploads/2022-06-29.jpg
+  - title: Alha Ghat
+    description: Alha Ghat
+    image: /assets/uploads/2022-08-17.jpg
+    entry_fee: "20"
+    timings: 10AM - 5PM
+    best_time: Rainy and Winters
+    map: https://goo.gl/maps/715vnrMg9x958De47
 ---
 As we live between Chitrakoot and Kaushambi, there are numerous ancient locations here.
