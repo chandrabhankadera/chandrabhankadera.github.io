@@ -24,7 +24,7 @@ nearbyplaces:
   - title: Alha Ghat
     description: Alha Ghat
     image: /assets/uploads/2022-08-17.jpg
-    entry_fee: "20"
+    entry_fee: 20 Rupee
     timings: 10AM - 5PM
     best_time: Rainy and Winters
     map: https://goo.gl/maps/715vnrMg9x958De47
