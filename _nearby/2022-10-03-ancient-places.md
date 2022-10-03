@@ -20,5 +20,6 @@ nearbyplaces:
     best_time: Always
     link: ""
     map: https://goo.gl/maps/WDn1hp3BknuXiTSM8
+    image: /assets/uploads/2022-06-29.jpg
 ---
 As we live between Chitrakoot and Kaushambi, there are numerous ancient locations here.
