@@ -147,15 +147,12 @@ collections:
         - label: 'Title'
           name: 'title'
           widget: 'string'
-        - label: 'Description'
-          name: 'description'
+        - label: 'SEO Description'
+          name: 'seo_description'
           widget: 'string'
-        - label: 'Projet URL'
-          name: 'project_url'
+        - label: 'Full URL'
+          name: 'full_url'
           widget: 'string'
-        - label: 'completed on'
-          name: 'completed_on'
-          widget: 'date'
         - label: 'Publish Date'
           name: 'date'
           widget: 'datetime'
@@ -179,28 +176,7 @@ collections:
           search_fields: ["categories.*.title"]
           display_fields: ["categories.*.title"]
           value_field: "categories.*.title"
-        - label: 'Nearbyplaces'
-          name: 'nearbyplaces'
-          multiple: true
-          widget: "relation"
-          collection: "nearbyplaces"
-          file: "nearbyplaces"
-          search_fields: ["nearbyplaces.*.title"]
-          display_fields: ["nearbyplaces.*.title"]
-          value_field: "nearbyplaces.*.title"
-        - label: "Gallery"
-          name: "galleryImages"
-          widget: "list"
-          summary: '{{fields.image}}'
-          field: {label: Image, name: image, widget: image}
-        - label: 'Android App'
-          name: 'android'
-          widget: 'string'
-          required: false
-        - label: 'iOS App'
-          name: 'ios'
-          widget: 'string'
-          required: false
+ 
           
     - name: 'nearbyplaces'
       label: 'Near Options'
