@@ -157,3 +157,21 @@ collections:
                 - {label: Best Time, name: best_time, widget: string }
                 - {label: Link, name: link, widget: string, required: false }
                 - {label: Map, name: map, widget: string, required: false }
+        - name: 'spiritualplace'
+          label: 'Spiritual places'
+          file: '_data/spiritualplace.yml'
+          description: 'List of spiritual place'
+          fields:
+            - name: 'spiritualplace'
+              label: 'Spiritual places'
+              label_singular: 'spiritual place'
+              widget: list
+              fields:
+                - {label: Title, name: title, widget: string,}
+                - {label: Description, name: description, widget: string }
+                - {label: Featured Image, name: image, widget: image }
+                - {label: Entry fee, name: entry_fee, widget: string }
+                - {label: Timings, name: timings, widget: string }
+                - {label: Best Time, name: best_time, widget: string }
+                - {label: Link, name: link, widget: string, required: false }
+                - {label: Map, name: map, widget: string, required: false }
