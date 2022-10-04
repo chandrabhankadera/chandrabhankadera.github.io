@@ -6,3 +6,10 @@ waterfallsandrivers:
     timings: 10 AM - 5PM
     best_time: Rainy and Winter
     image: /assets/uploads/2021-08-07.jpg
+  - title: Yamuna River
+    description: Yamuna River
+    image: /assets/uploads/img_20220715_101450.jpg
+    entry_fee: Free
+    timings: Always
+    best_time: Always
+    map: https://goo.gl/maps/kX5MSzCypiJpm8wv6
