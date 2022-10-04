@@ -18,43 +18,22 @@ sitemap:
           <p>The whole Bundelkhand is surrounded by mountains, there are many big valleys, which you will be very surprised to see.</p>
         </div>
 
-        <div class="row no-gutters">
-
-          <div class="col-lg-4 col-md-6 content-item">
-            <span><i class="fa-duotone fa-gopuram fa-2x"></i></span>
-            <h4>Ancient places</h4>
-            <p>There are many ancient heritage around us, which you can experience by coming here.</p>
+        <div class="row">
+          {% assign i = 0 %}
+          {% for hillsandmountains in site.data.hillsandmountains.hillsandmountains %}
+          <div class="col-lg-12 col-md-12 ">
+            <h4 class="near-by-title">{% assign i = i | plus:1 %}  {{ i }}. {{ hillsandmountains.title }}</h4>
+            <div class="row">
+              <div class="col-md-6 col-sm-12"><img class="near-by-image img-fluid" src="{{ hillsandmountains.image }}"></div>
+            </div>
+            <div class="near-by-description">{{ hillsandmountains.description }}</div>
+            <p class="near-by-best_time"><strong>Best to Visit: </strong> {{ hillsandmountains.best_time }}</p>
+            <p class="near-by-entry_fee"><strong>Entry Fee: </strong>{{ hillsandmountains.entry_fee }}</p>
+            <p class="near-by-timings"><strong>Timings: </strong>{{ hillsandmountains.timings }}</p>
+            <p class="near-by-map"><strong>Map: </strong><a href="{{ hillsandmountains.map }}" target="_blank">See on Google map</a></p>
           </div>
 
-          <div class="col-lg-4 col-md-6 content-item">
-            <span><i class="fa-duotone fa-om fa-2x"></i></span>
-            <h4>Spiritual Place</h4>
-            <p>We are from Chitrakoot so it is a simple matter that there are many religious places which you can visit anytime.</p>
-          </div>
-
-          <div class="col-lg-4 col-md-6 content-item">
-            <span><i class="fa-duotone fa-paw fa-2x"></i></span>
-            <h4>Tiger Safari </h4>
-            <p>Near us is Mukundpur White Tiger Safari where you can go and see White Tiger.</p>
-          </div>
-
-          <div class="col-lg-4 col-md-6 content-item">
-            <span><i class="fa-duotone fa-mountains fa-2x"></i></span>
-            <h4>Hills and Mountains </h4>
-            <p>Both Chitrakoot and Rewa district are surrounded by mountains, rather you can say that the whole Bundelkhand is made up of mountains.</p>
-          </div>
-
-          <div class="col-lg-4 col-md-6 content-item">
-            <span><i class="fa-duotone fa-person-hiking fa-2x"></i></span>
-            <h4>Waterfalls and Rivers </h4>
-            <p>There are total 17 waterfalls around us, out of which Keoti is the most popular.</p>
-          </div>
-
-          <div class="col-lg-4 col-md-6 content-item">
-            <span><i class="fa-duotone fa-face-smile-plus fa-2x"></i></span>
-            <h4>Much More</h4>
-            <p>You can party, go camping, go fishing and do many more interesting things here.</p>
-          </div>
+          {% endfor %}
 
         </div>
       </div>
