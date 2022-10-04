@@ -211,3 +211,21 @@ collections:
                 - {label: Best Time, name: best_time, widget: string }
                 - {label: Link, name: link, widget: string, required: false }
                 - {label: Map, name: map, widget: string, required: false }
+        - name: 'waterfallsandrivers'
+          label: 'Waterfalls and rivers'
+          file: '_data/waterfallsandrivers.yml'
+          description: 'List of Waterfalls and Rivers'
+          fields:
+            - name: 'waterfallsandrivers'
+              label: 'Waterfalls and rivers'
+              label_singular: 'Waterfall and River'
+              widget: list
+              fields:
+                - {label: Title, name: title, widget: string,}
+                - {label: Description, name: description, widget: string }
+                - {label: Featured Image, name: image, widget: image }
+                - {label: Entry fee, name: entry_fee, widget: string }
+                - {label: Timings, name: timings, widget: string }
+                - {label: Best Time, name: best_time, widget: string }
+                - {label: Link, name: link, widget: string, required: false }
+                - {label: Map, name: map, widget: string, required: false }
