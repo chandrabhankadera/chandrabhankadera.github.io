@@ -193,3 +193,21 @@ collections:
                 - {label: Best Time, name: best_time, widget: string }
                 - {label: Link, name: link, widget: string, required: false }
                 - {label: Map, name: map, widget: string, required: false }
+        - name: 'hillsandmountains'
+          label: 'Hills and mountains'
+          file: '_data/hillsandmountains.yml'
+          description: 'List of hills and mountains'
+          fields:
+            - name: 'hillsandmountains'
+              label: 'Hills and mountains'
+              label_singular: 'Hill and Mountain'
+              widget: list
+              fields:
+                - {label: Title, name: title, widget: string,}
+                - {label: Description, name: description, widget: string }
+                - {label: Featured Image, name: image, widget: image }
+                - {label: Entry fee, name: entry_fee, widget: string }
+                - {label: Timings, name: timings, widget: string }
+                - {label: Best Time, name: best_time, widget: string }
+                - {label: Link, name: link, widget: string, required: false }
+                - {label: Map, name: map, widget: string, required: false }
