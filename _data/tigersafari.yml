@@ -14,3 +14,13 @@ tigersafari:
     best_time: Always
     map: https://goo.gl/maps/fZRJhUQa3CHfP2Q19
     image: /assets/uploads/pxl_20210620_080914052.jpg
+  - title: Panna Tiger Safari
+    description: Panna Tiger Reserve is a vital tiger habitat located in Vindhya
+      Hill in the north of Madhya Pradesh and fragile across a dry and dynamic
+      deciduous forest.
+    entry_fee: "1400"
+    timings: 10AM - 4PM
+    best_time: October
+    link: https://forest.mponline.gov.in/eBrochure/eBrochureDetails.aspx?parkid=3
+    map: https://goo.gl/maps/KFXEE6rhf4qzwGxP6
+    image: /assets/uploads/panna_tiger.jpg
