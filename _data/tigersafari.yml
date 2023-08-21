@@ -6,9 +6,19 @@ tigersafari:
     timings: 10AM - 4PM
     best_time: NA
     map: https://goo.gl/maps/88gXHaa8QFgYL1gM8
+  - title: Panna Tiger Safari
+    description: Panna Tiger Reserve is a vital tiger habitat located in Vindhya
+      Hill in the north of Madhya Pradesh and fragile across a dry and dynamic
+      deciduous forest.
+    entry_fee: "1400"
+    timings: 10AM - 4PM
+    best_time: October
+    link: https://forest.mponline.gov.in/eBrochure/eBrochureDetails.aspx?parkid=3
+    map: https://goo.gl/maps/KFXEE6rhf4qzwGxP6
+    image: /assets/uploads/panna_tiger.jpg
   - title: Gurguda Valley - National forest
-    description: Gurgudā Valley is one of the top and best destinations for family
-      and friends in the field of park.
+    description: "Not open for safari now: Gurgudā Valley is one of the top and best
+      destinations for family and friends in the field of park."
     entry_fee: Free
     timings: 10AM - 4PM
     best_time: Always
