@@ -34,13 +34,6 @@ waterfallsandrivers:
     image: /assets/uploads/2023-08-14.jpg
     description: Keoti Falls (also spelt Kevti) is in Rewa district in the Indian
       state of Madhya Pradesh. It is the 24th highest waterfall in India.
-  - title: Yamuna River
-    description: Yamuna River
-    image: /assets/uploads/img_20220715_101450.jpg
-    entry_fee: Free
-    timings: Always
-    best_time: Always
-    map: https://goo.gl/maps/kX5MSzCypiJpm8wv6
   - title: Bahuti Waterfall
     description: The Bahuti Falls is a waterfall in Rewa district in the Indian
       state of Madhya Pradesh. It is the highest waterfall in Madhya Pradesh.
@@ -49,3 +42,10 @@ waterfallsandrivers:
     timings: Always
     best_time: Rainy and Winter
     map: https://goo.gl/maps/eEHjwU6Zync6JYu4A
+  - title: Yamuna River
+    description: Yamuna River
+    image: /assets/uploads/img_20220715_101450.jpg
+    entry_fee: Free
+    timings: Always
+    best_time: Always
+    map: https://goo.gl/maps/kX5MSzCypiJpm8wv6
