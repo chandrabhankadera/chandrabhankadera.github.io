@@ -9,7 +9,7 @@ const handleSubmit = (event) => {
     headers: { "Content-Type": "application/x-www-form-urlencoded" },
     body: new URLSearchParams(formData).toString(),
   })
-    .then(() => alert("Thank you for your submission"))
+    .then(() => { document.getElementById("Contact").innerHTML = "<p>Thank you for reaching out to us. We will get back to you shortly. If you need a faster response, feel free to contact us at the contact number provided.</p>" })
     .catch((error) => alert(error));
 };
 
