@@ -157,6 +157,7 @@ collections:
                 - {label: Best Time, name: best_time, widget: string }
                 - {label: Link, name: link, widget: string, required: false }
                 - {label: Map, name: map, widget: string, required: false }
+                - {label: Youtube, name: youtube, widget: string, required: false }
         - name: 'spiritualplace'
           label: 'Spiritual places'
           file: '_data/spiritualplace.yml'
@@ -175,6 +176,7 @@ collections:
                 - {label: Best Time, name: best_time, widget: string }
                 - {label: Link, name: link, widget: string, required: false }
                 - {label: Map, name: map, widget: string, required: false }
+                - {label: Youtube, name: youtube, widget: string, required: false }
         - name: 'tigersafari'
           label: 'Tiger safaris'
           file: '_data/tigersafari.yml'
@@ -193,6 +195,7 @@ collections:
                 - {label: Best Time, name: best_time, widget: string }
                 - {label: Link, name: link, widget: string, required: false }
                 - {label: Map, name: map, widget: string, required: false }
+                - {label: Youtube, name: youtube, widget: string, required: false }
         - name: 'hillsandmountains'
           label: 'Hills and mountains'
           file: '_data/hillsandmountains.yml'
@@ -211,6 +214,7 @@ collections:
                 - {label: Best Time, name: best_time, widget: string }
                 - {label: Link, name: link, widget: string, required: false }
                 - {label: Map, name: map, widget: string, required: false }
+                - {label: Youtube, name: youtube, widget: string, required: false }
         - name: 'waterfallsandrivers'
           label: 'Waterfalls and rivers'
           file: '_data/waterfallsandrivers.yml'
@@ -229,3 +233,4 @@ collections:
                 - {label: Best Time, name: best_time, widget: string }
                 - {label: Link, name: link, widget: string, required: false }
                 - {label: Map, name: map, widget: string, required: false }
+                - {label: Youtube, name: youtube, widget: string, required: false }
